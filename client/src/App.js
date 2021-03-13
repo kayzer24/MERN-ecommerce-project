@@ -8,35 +8,6 @@ import {useDispatch} from 'react-redux';
 import {currentUser} from './functions/auth';
 import {LoadingOutlined} from "@ant-design/icons";
 
-// import Login from './pages/auth/Login';
-// import Register from './pages/auth/Register';
-// import ForgotPassword from './pages/auth/ForgotPassword';
-// import Home from './pages/Home';
-// import Header from './components/nav/Header';
-// import RegisterComplete from './pages/auth/RegisterComplete';
-// import History from './pages/user/History';
-// import Password from './pages/user/Password';
-// import Wishlist from './pages/user/Wishlist';
-// import AdminDashboard from './pages/admin/AdminDashboard';
-// import UserRoute from './components/routes/UserRoute';
-// import AdminRoute from './components/routes/AdminRoute';
-// import CategoryCreate from './pages/admin/category/CategoryCreate';
-// import CategoryUpdate from './pages/admin/category/CategoryUpdate';
-// import SubCreate from './pages/admin/sub/SubCreate';
-// import SubUpdate from './pages/admin/sub/SubUpdate';
-// import ProductCreate from './pages/admin/product/ProductCreate';
-// import AllProducts from "./pages/admin/product/AllProducts";
-// import ProductUpdate from "./pages/admin/product/ProductUpdate";
-// import Product from "./pages/Product";
-// import CategoryHome from "./pages/category/CategoryHome";
-// import SubHome from "./pages/sub/SubHome";
-// import Shop from "./pages/Shop";
-// import Cart from "./pages/Cart";
-// import SideDrawer from "./components/drawer/SideDrawer";
-// import Checkout from "./pages/Checkout";
-// import CreateCouponPage from "./pages/admin/coupon/CreateCouponPage";
-// import Payment from "./pages/Payment";
-
 // using lazy
 const Login = lazy(() => import('./pages/auth/Login'));
 const Register = lazy(() => import('./pages/auth/Register'));
